@@ -4,7 +4,7 @@ const array = [1, 2, 3, 4, 5, 6, 7];
 
 const removeElement = function (arr, element) {
    const index = arr.indexOf(element);
-   if (index != -1) {
+   if (index !== -1) {
       arr.splice(index, 1)
    }
 }
